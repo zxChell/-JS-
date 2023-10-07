@@ -1,12 +1,13 @@
 // Number 1
 // let x = prompt();
-// if (x > 0 && x/ 1 == x && x / x == 1 && x % 2 !== 0){
+// if (x > 1 && x / 1 == x && x / x == 1 && x % 2 !== 0){
 //     console.log( x , 'простое')
 // }else if (x == 2){
 //     console.log( x , 'простое')
-// }else{console.log( x ,'сложное')
-// };
-// надо добавить такие переменные как 0 и 1 они не являються не сложными не простыми
+// }else if (x == 1 || x == 0){
+//     console.log( x , 'не сложное и не простое')
+// }else
+//     console.log('сложное')
 
 // Number 2
 // function xxx(a , b){
