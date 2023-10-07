@@ -9,14 +9,13 @@
 // надо добавить такие переменные как 0 и 1 они не являються не сложными не простыми
 
 // Number 2
-// const num = [
-//     `124`,
-//     `323`,
-//     `543`,
-//     `763`,
-//     `346`,
-//     `876`,
-//     `1150`
-// ]
-// const map = new Map();
-// num.forEach((x) => {console.log(x)});
+// function xxx(a , b){
+//     if (a == b) return 0;
+//     if (a > b) return 1;
+//     if (a < b) return -1;
+// }
+// let num = [543 , 112 , 876 , 634 , 765 , 124 , 745 , 79];
+// num.sort(xxx);
+// console.log(num);
+
+// Number 3
