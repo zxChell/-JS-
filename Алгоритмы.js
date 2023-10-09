@@ -20,3 +20,7 @@
 // console.log(num);
 
 // Number 3
+// let num  = [1500 , 1000 , 500 , 250 , 100 , 50 , 25];
+// console.log(Math.max.apply(null , num));
+
+// Number 4
