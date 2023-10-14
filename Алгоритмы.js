@@ -1,26 +1,39 @@
 // Number 1
-// let x = prompt();
-// if (x > 1 && x / 1 == x && x / x == 1 && x % 2 !== 0){
-//     console.log( x , 'простое')
-// }else if (x == 2){
-//     console.log( x , 'простое')
-// }else if (x == 1 || x == 0){
-//     console.log( x , 'не сложное и не простое')
-// }else
-//     console.log('сложное')
+let x = prompt();
+if (x > 1 && x / 1 == x && x / x == 1 && x % 2 !== 0){
+    console.log( x , 'простое')
+}else if (x == 2){
+    console.log( x , 'простое')
+}else if (x == 1 || x == 0){
+    console.log( x , 'не сложное и не простое')
+}else
+    console.log('сложное')
 
 // Number 2
-// function xxx(a , b){
-//     if (a == b) return 0;
-//     if (a > b) return 1;
-//     if (a < b) return -1;
-// }
-// let num = [543 , 112 , 876 , 634 , 765 , 124 , 745 , 79];
-// num.sort(xxx);
-// console.log(num);
+function xxx(a , b){
+  if (a == b) return 0;
+  if (a > b) return 1;
+  if (a < b) return -1;
+}
+let num = [543 , 112 , 876 , 634 , 765 , 124 , 745 , 79];
+num.sort(xxx);
+console.log(num);
 
 // Number 3
-// let num  = [1500 , 1000 , 500 , 250 , 100 , 50 , 25];
-// console.log(Math.max.apply(null , num));
+let num  = [1500 , 1000 , 500 , 250 , 100 , 50 , 25];
+console.log(Math.max.apply(null , num));
 
 // Number 4
+const x = prompt();
+if (x === 0) {
+    console.log(0);
+} else {
+    let a = 0, b = 1;
+    for (let i = 2; i <= x; i++) {
+        const y = a;
+        a = b;
+        b = y + b;
+    }
+    console.log(b);
+}
+// Number 5
